@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+    <link rel="stylesheet" href="css/art.css">
+    <script src="https://kit.fontawesome.com/85db3b65c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <nav>
+        <div class="navbar-wrapper">
+            <div class="navbar">
+                <div class="left">
+                <div class="theme">
+                    <i class="fas fa-sun icon" id="toggleDark"></i>
+                </div>
+                
+                </div>
+                <div class="center">
+                  <a href="index.html" class="" data-lang-en="HOME" data-lang-id="UTAMA">HOME</a>
+
+                  <div class="dropdown-destination">
+                    <a href="../destination.html" class="dropdown-toggle" data-lang-en="DESTINATION" data-lang-id="DESTINASI">DESTINATION</a>
+                    <div class="dropdown-menu-destination">
+                      <a href="destinations/nature.html" class="dropdown-item-destination" data-lang-en="Nature" data-lang-id="Alam">Alam</a>
+                      <a href="destinations/art.html" class="dropdown-item-destination" data-lang-en="Art" data-lang-id="Kesenian">Kesenian</a>
+                      <a href="destinations/zoo.html" class="dropdown-item-destination" data-lang-en="Zoo" data-lang-id="Kebun Binatang">Cities</a>
+                    </div>
+                  </div>                       
+
+                  <div class="image">
+                      <span><img src="assets/images/logo.png" alt="Logo Website" width="60px"></span>
+                  </div>
+                  <a href="#" class="active" data-lang-en="ART" data-lang-id="KESENIAN">ART</a>
+                  <a href="culinary.html" class="" data-lang-en="CULINARY" data-lang-id="KULINER">CULINARY</a>
+                </div>
+                <div class="right">
+                  <div class="language-switch">
+                    <select id="language-select" class="language-dropdown" onchange="changeLanguage()">
+                      <option value="id">🇮🇩 Indonesia</option>
+                      <option value="en">en English</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>  
+
+    <header>
+        <div class="image-header">
+          <img src="assets/images/art-1.png" alt="Destination 1">
+          <img src="assets/images/art-3.png" alt="Destination 2">
+          <img src="assets/images/art-4.png" alt="Destination 3">
+          <img src="assets/images/art-5.png" alt="Destination 4">
+      </div>
+        <div class="text-header">
+          <h1 data-lang-en="art" data-lang-id="kesenian">art</h1>
+        </div>
+        
+      </header>
+  
+        <main>
+          <div class="content">
+            <div class="about">
+              <div class="about-content">
+                 <div class="image-container">
+                     <img class="main-image" src="assets/images/art-1.png" alt="Kapal Kontainer">
+                 </div>
+                 
+                 <div class="about-text">
+                     <span class="sub-title-1" data-lang-en="About" data-lang-id="Tentang">About</span>
+                     <h1 class="title-welcome" data-lang-en="Variety of Gianyar Arts" data-lang-id="Ragam Kesenian Gianyar">Ragam Kesenian Gianyar</h1>
+                     <div class="about-description">
+                        <span data-lang-en="The arts in Gianyar Regency are a rich and deep cultural heritage, including various traditional arts such as wood carvings, sacred dances and shadow puppet performances. As the center of art in Bali, Gianyar is home to artists who maintain ancestral traditions through stunning and meaningful works. From intricate carvings to the Barong dance full of symbolism, every aspect of art in Gianyar reflects the beauty and depth of Balinese culture which continues to live and develop." data-lang-id="Kesenian di Kabupaten Gianyar merupakan warisan budaya yang kaya dan mendalam, mencakup berbagai seni tradisional seperti ukiran kayu, tari-tarian sakral, dan pertunjukan wayang kulit. Sebagai pusat seni di Bali, Gianyar menjadi rumah bagi para seniman yang menjaga tradisi leluhur melalui karya-karya yang memukau dan penuh makna. Dari seni ukir yang rumit hingga tari Barong yang penuh simbolisme, setiap aspek kesenian di Gianyar mencerminkan keindahan dan kedalaman budaya Bali yang terus hidup dan berkembang.">Kesenian di Kabupaten Gianyar merupakan warisan budaya yang kaya dan mendalam, mencakup berbagai seni tradisional seperti ukiran kayu, tari-tarian sakral, dan pertunjukan wayang kulit. Sebagai pusat seni di Bali, Gianyar menjadi rumah bagi para seniman yang menjaga tradisi leluhur melalui karya-karya yang memukau dan penuh makna. Dari seni ukir yang rumit hingga tari Barong yang penuh simbolisme, setiap aspek kesenian di Gianyar mencerminkan keindahan dan kedalaman budaya Bali yang terus hidup dan berkembang.</span>
+                     </div>
+                     <div class="about-icons">
+                        <div class="art-icon">
+                          <span><i class="fa-icon fa-solid fa-masks-theater"></i>&nbsp;</span>
+                          <span data-lang-en="100+ Arts" data-lang-id="100+ Kesenian">100+ Arts</span>
+                        </div>
+                        <div class="artist-icon">
+                          <span><i class="fa-icon fa-solid fa-person-rays"></i>&nbsp;</span>
+                          <span data-lang-en="100+ Artists" data-lang-id="50+ Seniman">50+ Artists</span>
+                        </div>
+                        <div class="work-arts-icon">
+                          <span><i class="fa-icon fa-solid fa-wand-magic-sparkles"></i>&nbsp;</span>
+                          <span data-lang-en="1000+ Works of Arts" data-lang-id="1000+ Karya Seni">1000+ Works of Arts</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+  
+            <div class="photo-gallery">
+              <div class="photo-gallery-header">
+                <div class="photo-title">
+                  <span class="sub-title-1" data-lang-en="gallery" data-lang-id="galeri">gallery</span>
+                  <h1 class="title-welcome" data-lang-en="They loved it and you will too." data-lang-id="Mereka menyukainya dan anda juga.">They loved it and you will too.</h1>
+                </div>
+                <div class="photo-description">
+                  <span data-lang-en="Discover special stories from those who visited Gianyar and were enchanted. Use #VisitGianyar on social media and join this community. We hope to see you here too!" data-lang-id="Temukan kisah istimewa dari mereka yang berkunjung ke Gianyar dan terpesona. Gunakan #KunjungiGianyar di media sosial dan bergabunglah dengan komunitas ini. Kami berharap dapat bertemu Anda di sini juga!">Discover special stories from those who visited Gianyar and were enchanted. Use #VisitGianyar on social media and join this community. We hope to see you here too!</span>
+                </div>
+              </div>
+              <div class="photo-gallery-content">
+                <div class="column">
+                  <img src="assets/images/art-13.png" alt="">
+                  <img src="assets/images/art-3.png" alt="">
+                  <img src="assets/images/art-6.png" alt="">
+                </div>
+                <div class="column">
+                  <img src="assets/images/art-7.png" alt="">
+                  <img src="assets/images/art-11.png" alt="">
+                  <img src="assets/images/art-9.png " alt="">
+                </div>
+                <div class="column">
+                  <img src="assets/images/art-10.png" alt="">
+                  <img src="assets/images/art-12.png" alt="">
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tickets">
+            <img src="assets/images/destination-28.png" alt="" class="tickets-bg-img">
+            <div class="tickets-content">
+              <div class="tickets-title">
+                <span class="sub-title-1" data-lang-en="Performing arts" data-lang-id="Pentas Seni">Performing arts</span>
+                <h1 class="title-welcome" data-lang-en="Get your ticket here" data-lang-id="Dapatkan tiketmu disini">Get your ticket here</h1>
+              </div>
+              <div class="card-tickets">
+                <div class="card">
+                  <img src="assets/images/destination-26.png" alt="Product Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="Performing arts" data-lang-id="pentas seni">Performing Arts</span>
+                    <h2 class="title">Ubud Kecak & Fire Dance Show</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="This show is inspired by the epic story Ramayana. Tells about Rama's journey to save Sita." data-lang-id="Pertunjukan ini terinspirasi oleh cerita epik Ramayana. Menceritakan perjalanan Rama menyelamatkan Sita.">Pertunjukan ini terinspirasi oleh cerita epik Ramayana. Menceritakan perjalanan Rama menyelamatkan Sita.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="price" data-lang-id="harga">Price</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 100.000 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.0</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>                    
+
+                    <a href="https://www.tiket.com/to-do/tiket-pertunjukan-ubud-kecak-and-fire-dance-show-di-jalan-tirta-tawar" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/destination-10.png" alt="Product Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="Performing arts" data-lang-id="Pentas seni">Performing Arts</span>
+                    <h2 class="title">Batubulan Barong Dance Show</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="Tells about the battle between Good and Evil." data-lang-id="Menceritakan tentang pertempuran antara Kebaikan dan kejahatan.">Menceritakan tentang pertempuran antara Kebaikan dan kejahatan.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="Price" data-lang-id="Harga">Price</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 125.000 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.6</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>                    
+
+                    <a href="https://www.traveloka.com/id-id/activities/indonesia/product/batubulan-barong-dance-performance-tickets-seraya-budaya-3592980226876" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/destination-27.png" alt="Product Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="Performing arts" data-lang-id="Pentas seni">Performing Arts</span>
+                    <h2 class="title">Legong dance show at ubud palace</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description">Tari Legong merupakan tari tradisional yang mencerminkan keanggunan para penarinya.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="Price" data-lang-id="Harga">Price</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 100.000 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.1</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>
+
+                    <a href="https://www.traveloka.com/en-id/activities/indonesia/product/legong-dance-show-tickets-at-ubud-palace-bali-6446403629738" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/destination-28.png" alt="Product Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="Performing arts" data-lang-id="Pentas seni">Performing Arts</span>
+                    <h2 class="title">Kecak & Fire dance semara madya</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description">Pertunjukan ini terinspirasi oleh cerita epik Ramayana. Menceritakan perjalanan Rama menyelamatkan Sita.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="Price" data-lang-id="Harga">Price</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 90.000 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.9</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>
+                    
+                    <a href="https://www.traveloka.com/id-id/activities/indonesia/product/kecak-and-fire-dance-semara-madya-peliatan-ubud-4422553851043" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </main>
+
+        <footer>
+          <div class="footer-content">
+              <div class="footer-wrapper">
+                  <div class="footer-website-identify">
+                      <div class="row">
+                          <img src="assets/images/logo.png" alt=""> 
+                          <h4>&nbsp; Gumi Seni</h4>
+                      </div>
+                      <p data-lang-en="Gumi Seni is a tourism website that focuses on providing information." data-lang-id="Gumi Seni adalah sebuah website pariwisata yang terfokus pada penyedia informasi.">Gumi Seni adalah sebuah website pariwisata yang terfokus pada penyedia informasi.</p>
+                  </div>
+                  <div class="footer-col">
+                      <h4 data-lang-en="About" data-lang-id="Tentang">About</h4>
+                      <ul>
+                          <li><a href="#">region</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>Pages</h4>
+                      <ul>
+                          <li><a href="#" data-lang-en="Home" data-lang-id="Utama">Home</a></li>
+                          <li><a href="#" data-lang-en="Art" data-lang-id="Kesenian">Art</a></li>
+                          <li><a href="#" data-lang-en="Culinary" data-lang-id="Kuliner">Culinary</a></li>
+                          <li><a href="#" data-lang-en="Destination" data-lang-id="Destinasi">Destination</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4 data-lang-en="Follow us" data-lang-id="Ikuti kami">follow us</h4>
+                      <div class="social-links">
+                          <a href="facebook.com"><i class="facebook fa-brands fa-facebook-f"></i></a>
+                          <a href="x.com"><i class="twitter fa-brands fa-x-twitter"></i></a>
+                          <a href="instagram.com"><i class="instagram fa-brands fa-instagram"></i></a>
+                          <a href="linkedin.com"><i class="linkedin-in fa-brands fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <p data-lang-en="&copy; 2024 Gumi Seni. All Rights Reserved" data-lang-id="&copy; 2024 Gumi Seni. Semua hak dilindungi.">&copy; 2024 Gumi Seni. All Rights Reserved</p>
+          </div>
+     </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/art.js"></script>
+</body>
+</html>

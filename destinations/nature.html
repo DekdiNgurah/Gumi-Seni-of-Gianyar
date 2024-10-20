@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Destination</title>
+    <link rel="stylesheet" href="../css/destinations/nature.css">
+    <script src="https://kit.fontawesome.com/85db3b65c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <nav>
+        <div class="navbar-wrapper">
+            <div class="navbar">
+                <div class="left">
+                <div class="theme">
+                    <i class="fas fa-sun icon" id="toggleDark"></i>
+                </div>
+                
+                </div>
+                <div class="center">
+                  <a href="../index.html" class="" data-lang-en="HOME" data-lang-id="UTAMA">HOME</a>
+
+                  <div class="dropdown-destination">
+                    <a href="../destination.html" class="dropdown-toggle active" data-lang-en="DESTINATION" data-lang-id="DESTINASI">DESTINATION</a>
+                    <div class="dropdown-menu-destination">
+                      <a href="#" class="dropdown-item-destination active" data-lang-en="Nature" data-lang-id="Alam">Alam</a>
+                      <a href="art.html" class="dropdown-item-destination" data-lang-en="Art" data-lang-id="Kesenian">Kesenian</a>
+                      <a href="zoo.html" class="dropdown-item-destination" data-lang-en="Zoo" data-lang-id="Kebun Binatang">Cities</a>
+                    </div>
+                  </div>
+
+                  <div class="image">
+                      <span><img src="../assets/images/logo.png" alt="Logo Website" width="60px"></span>
+                  </div>
+                  <a href="../art.html" class="" data-lang-en="ART" data-lang-id="KESENIAN">ART</a>
+                  <a href="../culinary.html" class="" data-lang-en="CULINARY" data-lang-id="KULINER">CULINARY</a>
+                </div>
+                <div class="right">
+                  <div class="language-switch">
+                    <select id="language-select" class="language-dropdown" onchange="changeLanguage()">
+                      <option value="id">🇮🇩 Indonesia</option>
+                      <option value="en">en English</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>  
+
+    <header>
+        <div class="image-header">
+          <img src="../assets/images/destination-1.png" alt="Destination 1">
+          <img src="../assets/images/destination-20.png" alt="Destination 2">
+          <img src="../assets/images/destination-4.png" alt="Destination 3">
+          <img src="../assets/images/destination-5.png" alt="Destination 4">
+      </div>
+        <div class="text-header">
+          <h1 data-lang-en="nature destination" data-lang-id="destinasi alam">nature destination</h1>
+        </div>
+        
+      </header>
+  
+        <main>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path class="svg-path" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,101.3C384,107,480,85,576,90.7C672,96,768,128,864,122.7C960,117,1056,75,1152,53.3C1248,32,1344,32,1392,32L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          </svg>
+
+          <div class="content">
+            <div class="destinations">
+                    <!-- <div class="title">
+                        <h1 class="title-welcome">Choose your favorit destinations</h1>
+                    </div> -->
+
+                <div class="destination-list">
+                    <div class="destination-title">
+                      <span class="sub-title-1" data-lang-en="Destinations" data-lang-id="Destinasi">Destinations</span>
+                      <h1 class="title-welcome" data-lang-en="Choose your favorit destinations" data-lang-id="Pilih destinasi favoritmu"></h1>
+                    </div>
+                    <div class="destination-list-content">
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-1.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span>
+                                terracotta ubud
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="The terracotta works in Ubud amaze with their varied shapes and colors. Each work is the result of the creativity of the craftsmen's hands, telling a unique story from clay. Explore ceramic galleries and studios, discovering the beauty of art hidden behind every curve." data-lang-id="Karya-karya terracotta di Ubud memukau dengan bentuk dan warna yang beragam. Setiap karya adalah hasil kreativitas tangan para pengrajin, menceritakan kisah unik dari tanah liat. Jelajahi galeri dan studio keramik, temukan keindahan seni yang tersembunyi di balik setiap lekukan."> </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="destination">
+                        <img src="../assets/images/destination-2.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="tegenungan waterfall" data-lang-id="air terjun tegenungan">
+                                air terjun tegenungan
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description"data-lang-en="For tourists who want to experience the true natural beauty of Bali, Tegenungan Waterfall is a must-visit destination. Apart from its natural beauty, access to this waterfall is also quite easy. There are various facilities such as parking, toilets and food stalls around the waterfall area." data-lang-id="Bagi wisatawan yang ingin merasakan keindahan alam Bali yang sesungguhnya, Air Terjun Tegenungan adalah destinasi yang wajib dikunjungi. Selain keindahan alamnya, akses menuju air terjun ini juga cukup mudah. Tersedia berbagai fasilitas seperti tempat parkir, toilet, dan warung makan di sekitar area air terjun."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="destination">
+                        <img src="../assets/images/destination-3.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="kanto lampo waterfall" data-lang-id="air terjun kanto lampo">
+                                air terjun kanto lampo
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Kanto Lampo Waterfall is a hidden gem in Gianyar that amazes with its unique natural beauty. The flow of water that breaks through terraced rocks creates a very beautiful view, as if this waterfall has many levels. The sound of gurgling water falling from a height adds to the cool atmosphere around the waterfall." data-lang-id="Air Terjun Kanto Lampo adalah permata tersembunyi di Gianyar yang memukau dengan keindahan alamnya yang unik. Aliran airnya yang terpecah-pecah melewati bebatuan berundak menciptakan pemandangan yang sangat indah, seolah-olah air terjun ini memiliki banyak tingkatan. Suara gemericik air yang jatuh dari ketinggian menambah kesejukan suasana di sekitar air terjun."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="destination">
+                        <img src="../assets/images/destination-4.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="monkey forest" data-lang-id="hutan monyet">
+                                hutan monyet
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="The Monkey Forest Ubud, also known as Mandala Suci Wenara Wana, is a captivating nature reserve and temple complex nestled in the heart of Ubud, Gianyar, Bali. This iconic destination is home to over 1,200 long-tailed macaques, who are considered sacred by the local Balinese people." data-lang-id="Hutan Monyet Ubud, juga dikenal sebagai Mandala Suci Wenara Wana, adalah cagar alam dan kompleks pura menawan yang terletak di jantung kota Ubud, Gianyar, Bali. Destinasi ikonik ini adalah rumah bagi lebih dari 1.200 kera ekor panjang, yang dianggap suci oleh masyarakat Bali setempat."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="destination">
+                        <img src="../assets/images/destination-5.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="reng - reng waterfall" data-lang-id="air terjun reng - reng">
+                                air terjun reng - reng
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Goa Rang Reng Waterfall is a hidden gem in Gianyar. The clear water falls from a height, creating a stunning view. Surrounded by lush green trees, this place is a paradise for nature lovers." data-lang-id="Air Terjun Goa Rang Reng adalah permata tersembunyi di Gianyar. Airnya yang jernih jatuh dari ketinggian, menciptakan pemandangan yang memukau. Dikelilingi oleh pepohonan hijau yang rimbun, tempat ini adalah surga bagi para pencinta alam."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="destination">
+                        <img src="../assets/images/destination-6.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="tirta empul temple" data-lang-id="pura tirta empul">
+                                pura tirta empul
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Tirta Empul Temple is one of the oldest temples in Bali with beautiful architecture. This temple was built in the 10th century and has high historical value. The unique architecture of this temple, especially the bathing pool, makes it a popular cultural tourist destination." data-lang-id="Pura Tirta Empul adalah salah satu pura tertua di Bali dengan arsitektur yang indah. Pura ini dibangun pada abad ke-10 dan memiliki nilai sejarah yang tinggi. Keunikan arsitektur pura ini, terutama pada bagian kolam pemandian, menjadikannya salah satu destinasi wisata budaya yang populer."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-7.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="suwat waterfall" data-lang-id="air terjun suwat">
+                                air terjun suwat
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Suwat Waterfall is a hidden gem in Gianyar. Its pristine natural beauty with refreshing waterfalls amazes anyone who visits. Apart from enjoying the beauty of the waterfall, visitors can also relax in the natural pool or try the sensation of riding a bamboo raft. With a tranquil atmosphere and stunning views, Suwat Waterfall is the perfect destination to unwind from stress." data-lang-id="Air Terjun Suwat adalah permata tersembunyi di Gianyar. Keindahan alamnya yang masih asri dengan air terjun yang menyegarkan membuat siapa saja yang berkunjung terpukau. Selain menikmati keindahan air terjun, pengunjung juga bisa bersantai di kolam alami atau mencoba sensasi naik rakit bambu. Dengan suasana yang tenang dan pemandangan yang memukau, Suwat Waterfall adalah destinasi sempurna untuk melepas penat."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-8.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="taman sari waterfall" data-lang-id="air terjun taman sari">
+                                air terjun taman sari
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Taman Sari Waterfall is a hidden gem in Gianyar. Its pristine natural beauty with multi-tiered waterfalls and clear natural pools amazes anyone who visits. Apart from enjoying the natural beauty, visitors can also relax around the pool or try the sensation of swimming in the fresh water. With a tranquil atmosphere and stunning views, Taman Sari is the perfect destination to unwind from stress." data-lang-id="Air Terjun Taman Sari adalah permata tersembunyi di Gianyar. Keindahan alamnya yang masih asri dengan air terjun bertingkat dan kolam alami yang jernih membuat siapa saja yang berkunjung terpukau. Selain menikmati keindahan alam, pengunjung juga bisa bersantai di sekitar kolam atau mencoba sensasi berenang di air yang segar. Dengan suasana yang tenang dan pemandangan yang memukau, Taman Sari adalah destinasi sempurna untuk melepas penat."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-9.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="temesi waterfall" data-lang-id="air terjun temesi">
+                                air terjun temesi
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Air Terjun Temesi adalah surga tersembunyi di Gianyar. Keindahan alamnya yang masih asri dengan air terjun yang menyegarkan membuat siapa saja yang berkunjung terpukau. Dengan tebing-tebing tinggi dan bebatuan unik, tempat ini sering disebut sebagai negeri dongeng. Selain itu, kolam alami yang jernih juga menjadi daya tarik tersendiri bagi pengunjung untuk bersantai dan berenang." data-lang-id="Air Terjun Temesi adalah surga tersembunyi di Gianyar. Keindahan alamnya yang masih asri dengan air terjun yang menyegarkan membuat siapa saja yang berkunjung terpukau. Dengan tebing-tebing tinggi dan bebatuan unik, tempat ini sering disebut sebagai negeri dongeng. Selain itu, kolam alami yang jernih juga menjadi daya tarik tersendiri bagi pengunjung untuk bersantai dan berenang."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-20.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="tegalalang rice terrace" data-lang-id="sawah terasering tegalalang">
+                                sawah terasering tegalalang
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="The Tegallalang rice terraces are a green gem in Ubud. This beautiful expanse of terraced rice fields creates a spectacular view, as if a vast green carpet. Apart from its natural beauty, Tegallalang also offers unique experiences for tourists, such as trekking among rice fields or enjoying a cup of coffee while watching the sunrise. Its beauty and tranquility make Tegallalang a mandatory destination for nature lovers." data-lang-id="Sawah terasering Tegallalang adalah permata hijau di Ubud. Hamparan sawah bertingkat yang indah ini menciptakan pemandangan spektakuler, seolah permadani hijau yang terbentang luas. Selain keindahan alamnya, Tegallalang juga menawarkan pengalaman unik bagi wisatawan, seperti trekking di antara sawah atau menikmati secangkir kopi sambil menyaksikan matahari terbit. Keindahan dan ketenangannya membuat Tegallalang menjadi destinasi wajib bagi para pencinta alam."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-21.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span>
+                                hidden canyon beji guwang
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Hidden Canyon Beji Guwang is a natural tourist destination that is increasingly popular in Bali. Hidden in the middle of the Gianyar hills, this place offers a unique and enchanting adventure experience. With towering cliffs, clear water pools and a cool atmosphere, Hidden Canyon Beji Guwang is a paradise for adventurers and nature lovers." data-lang-id="Hidden Canyon Beji Guwang adalah destinasi wisata alam yang semakin populer di Bali. Tersembunyi di tengah perbukitan Gianyar, tempat ini menawarkan pengalaman petualangan yang unik dan mempesona. Dengan tebing-tebing yang menjulang tinggi, kolam air jernih, dan suasana yang sejuk, Hidden Canyon Beji Guwang menjadi surga bagi para petualang dan pecinta alam."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-22.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="ayung river" data-lang-id="sungai ayung">
+                                sungai ayung
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="The Ayung River is the lifeblood of the Island of the Gods. As the longest river in Bali, it flows rapidly from upstream to estuary, offering stunning natural views. This river is not only a source of water for the local community, but also a popular tourist destination, especially for white water rafting activities. With its pristine natural beauty, the Ayung River has become one of the adventure tourism icons in Bali." data-lang-id="Sungai Ayung adalah nadi kehidupan Pulau Dewata. Sebagai sungai terpanjang di Bali, ia mengalir deras dari hulu hingga muara, menyuguhkan pemandangan alam yang memukau. Sungai ini tak hanya menjadi sumber air bagi masyarakat sekitar, tetapi juga destinasi wisata populer, terutama untuk kegiatan arung jeram. Dengan keindahan alamnya yang masih asri, Sungai Ayung menjadi salah satu ikon wisata petualangan di Bali."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="destination">
+                        <img src="../assets/images/destination-23.png" alt="Destination Images" class="destination-img">
+                        <div class="description">
+                          <div class="card-overlay">
+                            <h2 class="card-title-destination">
+                              <i class="fa-solid fa-location-dot"></i><br>
+                              <span data-lang-en="Gajah cave" data-lang-id="gua gajah">
+                                gua gajah
+                              </span>
+                            </h2>
+                            <p class="card-destination-name">
+                              <span class="description" data-lang-en="Hidden behind green cliffs, Goa Gajah offers stunning natural beauty. The unique elephant face sculpture at the cave entrance is the main attraction. The ancient architecture and mystical atmosphere inside the cave will enchant you." data-lang-id="Tersembunyi di balik tebing yang hijau, Goa Gajah menawarkan keindahan alam yang memukau. Pahatan wajah gajah yang unik di pintu masuk gua menjadi daya tarik utama. Arsitektur kuno dan suasana mistis di dalam gua akan membuat Anda terpesona."></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+          </div>
+
+          <div class="tickets">
+            <img src="../assets/images/destination-4.png" alt="" class="tickets-bg-img">
+            <div class="tickets-content">
+              <div class="tickets-title">
+                <span class="sub-title-1" data-lang-en="recommendations" data-lang-id="rekomendasi">recommendations</span>
+                <h1 class="title-welcome" data-lang-en="Best hotel recommendations" data-lang-id="Rekomendasi hotel terbaik">best hotel recommendations</h1>
+              </div>
+              <div class="card-tickets">
+                <div class="card">
+                  <img src="../assets/images/dante-guesthouse.jpg" alt="Product Image">
+                  <div class="card-title">
+                    <div class="hotel-star">
+                      <span class="sub-title" data-lang-en="hotel" data-lang-id="hotel">hotel</span>
+                      <div class="star-no">
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                      </div>
+                    </div>                    <h2 class="title">Dante Guesthouse</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="No.3, Jl. Hasanuddin No.I, Gianyar, Gianyar District, Gianyar Regency, Bali 80511" data-lang-id="No.3, Jl. Hasanuddin No.I, Gianyar, Kec. Gianyar, Kabupaten Gianyar, Bali 80511">No.3, Jl. Hasanuddin No.I, Gianyar, Kec. Gianyar, Kabupaten Gianyar, Bali 80511</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">Start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 232.697 </span>
+                      <span class="price-description" data-lang-en="/ room" data-lang-id="/kamar">/kamar</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>                    
+
+                    <a href="https://www.tiket.com/hotel/indonesia/dante-guesthouse-709001725871951518?hotelID=f08c3de7-5e27-4fd3-882c-71aa2e94d100&checkin=2024-10-21&checkout=2024-10-22&adult=2&country=ID&device=desktop&isAat=true&utm_source=google-hotel&utm_term=f08c3de7-5e27-4fd3-882c-71aa2e94d100&utm_medium=prf-ppc&utm_campaign=[MSA]-17283522910&utm_external=prf&gad_source=1&gclid=CjwKCAjw1NK4BhAwEiwAVUHPUCToGQ7l1qxqY7OokgGLye2VYUwCeECIxAQa4q0Aw3NkssgtK6iiTBoCjdcQAvD_BwE" class="buy-btn" target="_blank"><i class="fa-solid fa-key"></i></i> &nbsp; Check In</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="../assets/images/cucukan-guesthouse.jpg" alt="Product Image">
+                  <div class="card-title">
+                    <div class="hotel-star">
+                      <span class="sub-title" data-lang-en="hotel" data-lang-id="hotel">hotel</span>
+                      <div class="star-no">
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                      </div>
+                    </div>                    <h2 class="title">Cucukan Beach Guesthouse</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="Cucukan Beach, Medahan, Blahbatuh District, Gianyar Regency, Bali" data-lang-id="Pantai Cucukan, Medahan, Kec. Blahbatuh, Kabupaten Gianyar, Bali">Pantai Cucukan, Medahan, Kec. Blahbatuh, Kabupaten Gianyar, Bali</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">Start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 423.045 </span>
+                      <span class="price-description" data-lang-en="/ room" data-lang-id="/kamar">/kamar</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>                    
+
+                    <a href="https://www.tiket.com/hotel/indonesia/cucukan-beach-guest-house-703001711754737304?hotelID=fdcff59f-e67f-4452-87ee-5a54188a9b98&checkin=2024-11-03&checkout=2024-11-04&adult=2&country=ID&device=desktop&isAat=true&utm_source=google-hotel&utm_term=fdcff59f-e67f-4452-87ee-5a54188a9b98&utm_medium=aff-meta&utm_campaign=Google-Hotel-0023-B2B-none-hotel&utm_external=aff" class="buy-btn" target="_blank"><i class="fa-solid fa-key"></i></i> &nbsp; Check In</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="../assets/images/swan-paradise-by-desa.jpg" alt="Product Image">
+                  <div class="card-title">
+                    <div class="hotel-star">
+                      <span class="sub-title" data-lang-en="hotel" data-lang-id="hotel">hotel</span>
+                      <div class="star-no">
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                      </div>
+                    </div>
+                    <h2 class="title">Swan Paradise A Pramana Experience</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="Jalan Raya Bonbiyu, Banda, Blahbatuh, Gianyar District, Gianyar Regency, Bali 80581" data-lang-id="Jalan Raya Bonbiyu, Banda, Blahbatuh, Kec. Gianyar, Kabupaten Gianyar, Bali 80581">Jalan Raya Bonbiyu, Banda, Blahbatuh, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">Start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 821.543 </span>
+                      <span class="price-description" data-lang-en="/ room" data-lang-id="/kamar">/kamar</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>
+
+                    <a href="https://www.tiket.com/hotel/indonesia/swan-paradise-a-pramana-experience-602001677568838169?hotelID=3b740d81-61ca-425a-a7a1-932a695dd5d3&checkin=2024-10-23&checkout=2024-10-24&adult=2&country=ID&device=desktop&isAat=true&utm_source=google-hotel&utm_term=3b740d81-61ca-425a-a7a1-932a695dd5d3&utm_medium=aff-meta&utm_campaign=Google-Hotel-0023-B2B-none-hotel&utm_external=aff" class="buy-btn" target="_blank"><i class="fa-solid fa-key"></i></i> &nbsp; Check In</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="../assets/images/villa-lembah-damai.jpg" alt="Product Image">
+                  <div class="card-title">
+                    <div class="hotel-star">
+                      <span class="sub-title" data-lang-en="hotel" data-lang-id="hotel">hotel</span>
+                      <div class="star-no">
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                        <span class="stars"><i class="fa-icon fa-solid fa-star"></i></span>
+                      </div>
+                    </div>                    
+                    <h2 class="title">Villa Lembah Damai by Pramana Villas</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="J7VX+QF, Taro, Tegallalang District, Gianyar Regency, Bali" data-lang-id="J7VX+QF, Taro, Kec. Tegallalang, Kabupaten Gianyar, Bali">J7VX+QF, Taro, Kec. Tegallalang, Kabupaten Gianyar, Bali</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">Start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 866.250 </span>
+                      <span class="price-description" data-lang-en="/ room" data-lang-id="/kamar">/kamar</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>
+                    
+                    <a href="https://www.tiket.com/hotel/indonesia/villa-lembah-damai-by-pramana-villas-608001693198229544?hotelID=b6c26efb-f05f-4ff2-81ff-a8e7c1c65686&checkin=2024-11-04&checkout=2024-11-05&adult=2&country=ID&device=desktop&isAat=true&utm_source=google-hotel&utm_term=b6c26efb-f05f-4ff2-81ff-a8e7c1c65686&utm_medium=aff-meta&utm_campaign=Google-Hotel-0023-B2B-none-hotel&utm_external=aff" class="buy-btn" target="_blank"><i class="fa-solid fa-key"></i></i> &nbsp; Check In</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </main>
+
+        <footer>
+          <div class="footer-content">
+              <div class="footer-wrapper">
+                  <div class="footer-website-identify">
+                      <div class="row">
+                          <img src="../assets/images/logo.png" alt=""> 
+                          <h4>&nbsp; Gumi Seni</h4>
+                      </div>
+                      <p data-lang-en="Gumi Seni is a tourism website that focuses on providing information." data-lang-id="Gumi Seni adalah sebuah website pariwisata yang terfokus pada penyedia informasi.">Gumi Seni adalah sebuah website pariwisata yang terfokus pada penyedia informasi.</p>
+                  </div>
+                  <div class="footer-col">
+                      <h4 data-lang-en="About" data-lang-id="Tentang">About</h4>
+                      <ul>
+                          <li><a href="#">region</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>Pages</h4>
+                      <ul>
+                          <li><a href="#" data-lang-en="Home" data-lang-id="Utama">Home</a></li>
+                          <li><a href="#" data-lang-en="Art" data-lang-id="Kesenian">Art</a></li>
+                          <li><a href="#" data-lang-en="Culinary" data-lang-id="Kuliner">Culinary</a></li>
+                          <li><a href="#" data-lang-en="Destination" data-lang-id="Destinasi">Destination</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4 data-lang-en="Follow us" data-lang-id="Ikuti kami">follow us</h4>
+                      <div class="social-links">
+                          <a href="facebook.com"><i class="facebook fa-brands fa-facebook-f"></i></a>
+                          <a href="x.com"><i class="twitter fa-brands fa-x-twitter"></i></a>
+                          <a href="instagram.com"><i class="instagram fa-brands fa-instagram"></i></a>
+                          <a href="linkedin.com"><i class="linkedin-in fa-brands fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <p data-lang-en="&copy; 2024 Gumi Seni. All Rights Reserved" data-lang-id="&copy; 2024 Gumi Seni. Semua hak dilindungi.">&copy; 2024 Gumi Seni. All Rights Reserved</p>
+          </div>
+     </footer>
+
+    <script src="../js/navbar.js"></script>
+    <script src="../js/art.js"></script>
+</body>
+</html>

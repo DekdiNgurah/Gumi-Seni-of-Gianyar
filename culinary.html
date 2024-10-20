@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary</title>
+    <link rel="stylesheet" href="css/culinary.css">
+    <script src="https://kit.fontawesome.com/85db3b65c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navbar-wrapper">
+            <div class="navbar">
+                <div class="left">
+                <div class="theme">
+                    <i class="fas fa-sun icon" id="toggleDark"></i>
+                </div>
+                 
+                </div>
+                <div class="center">
+                  <a href="index.html" class="" data-lang-en="HOME" data-lang-id="UTAMA">HOME</a>
+                  <div class="dropdown-destination">
+
+                    <a href="../destination.html" class="dropdown-toggle" data-lang-en="DESTINATION" data-lang-id="DESTINASI">DESTINATION</a>
+                    <div class="dropdown-menu-destination">
+                      <a href="destinations/nature.html" class="dropdown-item-destination" data-lang-en="Nature" data-lang-id="Alam">Alam</a>
+                      <a href="destinations/art.html" class="dropdown-item-destination" data-lang-en="Art" data-lang-id="Kesenian">Kesenian</a>
+                      <a href="destinations/zoo.html" class="dropdown-item-destination" data-lang-en="Zoo" data-lang-id="Kebun Binatang">Cities</a>
+                    </div>
+                  </div>                
+
+                  <div class="image">
+                      <span><img src="assets/images/logo.png" alt="Logo Website" width="60px"></span>
+                  </div>
+                  <a href="art.html" class="" data-lang-en="ART" data-lang-id="KESENIAN">ART</a>
+                  <a href="#" class="active" data-lang-en="CULINARY" data-lang-id="KULINER">CULINARY</a>
+                </div>
+                <div class="right">
+                  <div class="language-switch">
+                    <select id="language-select" class="language-dropdown" onchange="changeLanguage()">
+                      <option value="id">🇮🇩 Indonesia</option>
+                      <option value="en">en English</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>  
+
+    <header>
+        <div class="image-header">
+          <img src="assets/images/culinary-1.png" alt="Destination 1">
+          <img src="assets/images/culinary-2.png" alt="Destination 2">
+          <img src="assets/images/culinary-3.png" alt="Destination 3">
+          <img src="assets/images/culinary-4.png" alt="Destination 4">
+      </div>
+        <div class="text-header">
+          <h1 data-lang-en="culinary" data-lang-id="kuliner">culinary</h1>
+        </div>
+        
+      </header>
+  
+        <main>
+        
+          <div class="content">
+             
+            <div class="about">
+             
+              <div class="about-content">
+                 <div class="image-container">
+                     <img class="main-image" src="assets/images/culinary-1.png" alt="Kapal Kontainer">
+                 </div>
+                 
+                 <div class="about-text">
+                     <span class="sub-title-1" data-lang-en="About" data-lang-id="Tentang">About</span>
+                     <h1 class="title-welcome" data-lang-en="Gianyar Culinary Variations" data-lang-id="Ragam Kuliner Gianyar">Ragam Kuliner Gianyar</h1>
+                     <div class="about-description" data-lang-en="The arts in Gianyar Regency are a rich and deep cultural heritage, including various traditional arts such as wood carvings, sacred dances and shadow puppet performances. As the center of art in Bali, Gianyar is home to artists who maintain ancestral traditions through stunning and meaningful works. From intricate carvings to the Barong dance full of symbolism, every aspect of art in Gianyar reflects the beauty and depth of Balinese culture which continues to live and develop." data-lang-id="Kesenian di Kabupaten Gianyar merupakan warisan budaya yang kaya dan mendalam, mencakup berbagai seni tradisional seperti ukiran kayu, tari-tarian sakral, dan pertunjukan wayang kulit. Sebagai pusat seni di Bali, Gianyar menjadi rumah bagi para seniman yang menjaga tradisi leluhur melalui karya-karya yang memukau dan penuh makna. Dari seni ukir yang rumit hingga tari Barong yang penuh simbolisme, setiap aspek kesenian di Gianyar mencerminkan keindahan dan kedalaman budaya Bali yang terus hidup dan berkembang.">
+                        <span>Kesenian di Kabupaten Gianyar merupakan warisan budaya yang kaya dan mendalam, mencakup berbagai seni tradisional seperti ukiran kayu, tari-tarian sakral, dan pertunjukan wayang kulit. Sebagai pusat seni di Bali, Gianyar menjadi rumah bagi para seniman yang menjaga tradisi leluhur melalui karya-karya yang memukau dan penuh makna. Dari seni ukir yang rumit hingga tari Barong yang penuh simbolisme, setiap aspek kesenian di Gianyar mencerminkan keindahan dan kedalaman budaya Bali yang terus hidup dan berkembang.</span>
+                     </div>
+                     <div class="about-icons">
+                        <div class="art-icon">
+                          <span><i class="fa-icon fa-solid fa-masks-theater"></i>&nbsp;</span>
+                          <span data-lang-en="100+ Arts" data-lang-id="100+ Kesenian">100+ Arts</span>
+                        </div>
+                        <div class="artist-icon">
+                          <span><i class="fa-icon fa-solid fa-person-rays"></i>&nbsp;</span>
+                          <span data-lang-en="50+ Artists" data-lang-id="50+ Seniman">50+ Artists</span>
+                        </div>
+                        <div class="work-arts-icon">
+                          <span><i class="fa-icon fa-solid fa-wand-magic-sparkles"></i>&nbsp;</span>
+                          <span data-lang-en="1000+ Works of Arts" data-lang-id="1000+ Karya Seni">1000+ Works of Arts</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="culiner-list">
+              <div class="culiner-title">
+                <span class="sub-title-1" data-lang-en="About" data-lang-id="Tentang">About</span>
+                <h1 class="title-welcome" data-lang-en="Favorit Culinary" data-lang-id="Kuliner Favorit">Favorit Culinary</h1>
+              </div>
+              <div class="culiner-list-content">
+                <div class="culinary">
+                  <img src="assets/images/culinary-1.png" alt="Culinary Images" class="destination-img">
+                  <div class="description">
+                    <div class="card-overlay">
+                      <h2 class="card-title-culinary">
+                        <i class="fa-solid fa-utensils"></i><br>
+                        lawar plek
+                      </h2>
+                      <p class="card-destination-name">
+                        <span class="description" data-lang-en="Lawar plek is a typical Balinese culinary dish made from raw pork prepared with typical Balinese spices or commonly known as Base Genep." data-lang-id="Lawar plek merupakan kuliner khas Bali berbahan dasar daging babi mentah yang diolah dengan bumbu masakan khas Bali atau yang biasa dikenal dengan nama Base Genep.">Lawar plek merupakan kuliner khas Bali berbahan dasar daging babi mentah yang diolah dengan bumbu masakan khas Bali atau yang biasa dikenal dengan nama Base Genep. </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="culinary">
+                  <img src="assets/images/culinary-2.png" alt="Culinary Images" class="destination-img">
+                  <div class="description">
+                    <div class="card-overlay">
+                      <h2 class="card-title-culinary">
+                        <i class="fa-solid fa-utensils"></i><br>
+                        nasi tahu
+                      </h2>
+                      <p class="card-destination-name">
+                        <span class="description"data-lang-en="Tofu rice covered in banana leaves. A portion of Nasi Tofu contains rice, long beans mixed with grated coconut, fried tofu and shrimp paste chili sauce." data-lang-id="Nasi Tahu beralaskan pincuk daun pisang. Seporsi Nasi Tahu berisi nasi, kacang panjang yang sudah dicampur dengan kelapa parut, tahu goreng, dan sambal terasi.">Nasi Tahu beralaskan pincuk daun pisang. Seporsi Nasi Tahu berisi nasi, kacang panjang yang sudah dicampur dengan kelapa parut, tahu goreng, dan sambal terasi.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="culinary">
+                  <img src="assets/images/culinary-3.png" alt="Culinary Images" class="destination-img">
+                  <div class="description">
+                    <div class="card-overlay">
+                      <h2 class="card-title-culinary">
+                        <i class="fa-solid fa-utensils"></i><br>
+                        nasi tepeng
+                      </h2>
+                      <p class="card-destination-name">
+                        <span class="description" data-lang-en="Nasi tepeng is usually served on banana leaves. The contents are rice drizzled with long beans, eggs, eggplant, moringa leaves, young jackfruit, and fried chicken which adds deliciousness." data-lang-id="Nasi tepeng biasa disajikan di atas daun pisang. Isinya berupa nasi yang diguyur dengan kacang panjang, telur, terong, daun kelor, nangka muda, juga ayam goreng yang menambah nikmat.">Nasi tepeng biasa disajikan di atas daun pisang. Isinya berupa nasi yang diguyur dengan kacang panjang, telur, terong, daun kelor, nangka muda, juga ayam goreng yang menambah nikmat.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="culinary">
+                  <img src="assets/images/culinary-4.png" alt="Culinary Images" class="destination-img">
+                  <div class="description">
+                    <div class="card-overlay">
+                      <h2 class="card-title-culinary">
+                        <i class="fa-solid fa-utensils"></i><br>
+                        nasi topot
+                      </h2>
+                      <p class="card-destination-name">
+                        <span class="description" data-lang-en="This rice is very unique because it uses banana leaves as the wrapper. The cooking method is almost similar to uduk rice." data-lang-id="Nasi yang satu ini sangat unik karena menggunakan daun pisang sebagai pembungkusnya. Cara memasaknya pun hampir mirip dengan nasi uduk.">Nasi yang satu ini sangat unik karena menggunakan daun pisang sebagai pembungkusnya. Cara memasaknya pun hampir mirip dengan nasi uduk.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="culinary">
+                  <img src="assets/images/culinary-5.png" alt="Culinary Images" class="destination-img">
+                  <div class="description">
+                    <div class="card-overlay">
+                      <h2 class="card-title-culinary">
+                        <i class="fa-solid fa-utensils"></i><br>
+                        sate kakul
+                      </h2>
+                      <p class="card-destination-name">
+                        <span class="description" data-lang-en="Ubud's typical Kakul satay uses snails as a basic ingredient, it tastes chewy and healthy because it is non-cholesterol. This dish will be even more complete when accompanied by warm white rice." data-lang-id="Sate kakul khas Ubud menggunakan siput sebagai bahan dasarnya, rasanya kenyal serta sehat karena non kolesterol. Hidangan ini akan semakin lengkap bila ditemani nasi putih hangat.">Sate kakul khas Ubud menggunakan siput sebagai bahan dasarnya, rasanya kenyal serta sehat karena non kolesterol. Hidangan ini akan semakin lengkap bila ditemani nasi putih hangat.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="culinary">
+                  <img src="assets/images/culinary-6.png" alt="Culinary Images" class="destination-img">
+                  <div class="description">
+                    <div class="card-overlay">
+                      <h2 class="card-title-culinary">
+                        <i class="fa-solid fa-utensils"></i><br>
+                        bebek bengil
+                      </h2>
+                      <p class="card-destination-name">
+                        <span class="description" data-lang-en="Bengil duck is known to have a distinctive spiced taste. Where the Indonesian spices are so pronounced, combined with the tender duck meat." data-lang-id="Bebek bengil dikenal memiliki cita rasa khas rempah. Di mana bumbu masakan Indonesia yang begitu terasa, berpadu dengan daging bebek yang lembut.">Bebek bengil dikenal memiliki cita rasa khas rempah. Di mana bumbu masakan Indonesia yang begitu terasa, berpadu dengan daging bebek yang lembut.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+
+              </div>
+            </div>
+  
+            <div class="photo-gallery">
+              <div class="photo-gallery-header">
+                <div class="photo-title">
+                  <span class="sub-title-1" data-lang-en="Gallery" data-lang-id="Galeri">Gallery</span>
+                  <h1 class="title-welcome" data-lang-en="They loved it and you will too." data-lang-id="Mereka menyukainya dan Anda juga.">They loved</span> it and you will too.</h1>
+                </div>
+                <div class="photo-description">
+                  <span data-lang-en="Discover special stories from those who visited Gianyar and were enchanted. Use #VisitGianyar on social media and join this community. We hope to see you here too!" data-lang-id="Temukan kisah istimewa dari mereka yang berkunjung ke Gianyar dan terpesona. Gunakan #KunjungiGianyar di media sosial dan bergabunglah dengan komunitas ini. Kami berharap dapat bertemu Anda di sini juga!">Discover special stories from those who visited Gianyar and were enchanted. Use #VisitGianyar on social media and join this community. We hope to see you here too!</span>
+                </div>
+              </div>
+              <div class="photo-gallery-content">
+                <div class="column">
+                  <img src="assets/images/culinary-1.png" alt="">
+                  <img src="assets/images/culinary-3.png" alt="">
+                  <img src="assets/images/culinary-6.png" alt="">
+                </div>
+                <div class="column">
+                  <img src="assets/images/culinary-3.png" alt="">
+                  <img src="assets/images/culinary-4.png" alt="">
+                  <img src="assets/images/culinary-1.png" alt="">
+                  
+                </div>
+                <div class="column">
+                  <img src="assets/images/culinary-6.png" alt="">
+                  <img src="assets/images/culinary-2.png" alt="">
+                  <img src="assets/images/culinary-3.png" alt="">
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="tickets">
+            <img src="assets/images/destination-28.png" alt="" class="tickets-bg-img">
+            <div class="tickets-content">
+              <div class="tickets-title">
+                <span class="sub-title-1" data-lang-en="Restaurant" data-lang-id="Restoran">restaurant</span>
+                <h1 class="title-welcome" data-lang-en="Order your foods here" data-lang-id="Pesan makananmu disini">Order your foods here</h1>
+              </div>
+              <div class="card-tickets">
+                <div class="card">
+                  <img src="assets/images/culinary-1.png" alt="Food Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="restaurant" data-lang-id="restoran">restaurant</span>
+                    <h2 class="title">Lawar Kedol Sukawati</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="Lawar plek is made from raw pork mixed with typical Balinese spices." data-lang-id="Lawar plek berbahan dasar daging babi mentah yang diolah dengan bumbu masakan khas Bali.">Lawar plek berbahan dasar daging babi mentah yang diolah dengan bumbu masakan khas Bali.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 20.000 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.8</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>                    
+
+                    <a href="https://gofood.co.id/bali/restaurant/lawar-kedol-sukawati-sukawati-f572eb08-fae6-421c-8bbe-f8e32a05590c" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/culinary-6.png" alt="Product Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="restaurant" data-lang-id="restoran">restaurant</span>
+                    <h2 class="title">Bebek Bengil</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="Bengil duck is known to have a distinctive spiced taste, combined with tender duck meat." data-lang-id="Bebek bengil dikenal memiliki cita rasa khas rempah, berpadu dengan daging bebek yang lembut.">Bebek bengil dikenal memiliki cita rasa khas rempah, berpadu dengan daging bebek yang lembut.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 131.250 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.6</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>                    
+
+                    <a href="https://www.tiket.com/to-do/tiket-bebek-bengil-restaurant-ubud-bali-34268" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/culinary-5.png" alt="Product Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="restaurant" data-lang-id="restoran">restaurant</span>
+                    <h2 class="title">Warung Sate Kakul</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="Ubud's signature Kakul satay uses snails as a basic ingredient, it tastes chewy and healthy because it is non-cholesterol." data-lang-id="Sate kakul khas Ubud menggunakan siput sebagai bahan dasarnya, rasanya kenyal serta sehat karena non kolesterol.">Sate kakul khas Ubud menggunakan siput sebagai bahan dasarnya, rasanya kenyal serta sehat karena non kolesterol.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 25.000 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.1</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>
+
+                    <a href="https://www.instagram.com/explore/locations/103178699/warung-sate-kakul/" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/culinary-7.png" alt="Product Image">
+                  <div class="card-title">
+                    <span class="sub-title" data-lang-en="restaurant" data-lang-id="restoran">restaurant</span>
+                    <h2 class="title">Lawar Plek Jik Akok</h2>
+                  </div>
+                  <div class="card-description">
+                    <span class="description" data-lang-en="Lawar plek is made from raw pork mixed with typical Balinese spices." data-lang-id="Lawar plek berbahan dasar daging babi mentah yang diolah dengan bumbu masakan khas Bali.">Lawar plek berbahan dasar daging babi mentah yang diolah dengan bumbu masakan khas Bali.</span>
+                  </div>
+                  <div class="card-price">
+                    <span class="sub-title" data-lang-en="start from" data-lang-id="mulai dari">start from</span>
+                    <div class="price-stars">
+                      <span class="price"> IDR 28.000 </span>
+                      <span class="stars"><i class="fa-icon fa-solid fa-star"></i> 4.9</span>
+                    </div>
+
+                  </div>
+                  <div class="action">
+
+                    <span class="favorit" style="cursor: pointer;">
+                      <i id="love-icon" class="fa-regular fa-heart love-icon"></i>
+                    </span>
+                    
+                    <a href="https://gofood.co.id/bali/restaurant/lawar-plek-jik-akok-gianyar-338f8878-a3d1-4178-b315-c991c4893f0f" class="buy-btn" target="_blank"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now</a>
+                  </div>
+                  <div class="notifications">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </main>
+
+        <footer>
+          <div class="footer-content">
+              <div class="footer-wrapper">
+                  <div class="footer-website-identify">
+                      <div class="row">
+                          <img src="assets/images/logo.png" alt=""> 
+                          <h4>&nbsp; Gumi Seni</h4>
+                      </div>
+                      <p data-lang-en="Gumi Seni is a tourism website that focuses on providing information." data-lang-id="Gumi Seni adalah sebuah website pariwisata yang terfokus pada penyedia informasi.">Gumi Seni adalah sebuah website pariwisata yang terfokus pada penyedia informasi.</p>
+                  </div>
+                  <div class="footer-col">
+                      <h4 data-lang-en="About" data-lang-id="Tentang">About</h4>
+                      <ul>
+                          <li><a href="#">region</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>Pages</h4>
+                      <ul>
+                          <li><a href="#" data-lang-en="Home" data-lang-id="Utama">Home</a></li>
+                          <li><a href="#" data-lang-en="Art" data-lang-id="Kesenian">Art</a></li>
+                          <li><a href="#" data-lang-en="Culinary" data-lang-id="Kuliner">Culinary</a></li>
+                          <li><a href="#" data-lang-en="Destination" data-lang-id="Destinasi">Destination</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4 data-lang-en="Follow us" data-lang-id="Ikuti kami">follow us</h4>
+                      <div class="social-links">
+                          <a href="facebook.com"><i class="facebook fa-brands fa-facebook-f"></i></a>
+                          <a href="x.com"><i class="twitter fa-brands fa-x-twitter"></i></a>
+                          <a href="instagram.com"><i class="instagram fa-brands fa-instagram"></i></a>
+                          <a href="linkedin.com"><i class="linkedin-in fa-brands fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <p data-lang-en="&copy; 2024 Gumi Seni. All Rights Reserved" data-lang-id="&copy; 2024 Gumi Seni. Semua hak dilindungi.">&copy; 2024 Gumi Seni. All Rights Reserved</p>
+          </div>
+     </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/art.js"></script>
+</body>
+</html>
